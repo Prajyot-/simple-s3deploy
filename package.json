@@ -14,12 +14,12 @@
   "repository": 
   {
     "type": "git",
-    "url": "https://github.com/prajyot-tote/simples3deploy"
+    "url": "https://github.com/prajyot-tote/simple-s3deploy"
   },
-  "homepage": "https://github.com/prajyot-tote/simples3deploy#readme",
+  "homepage": "https://github.com/prajyot-tote/simples-3deploy#readme",
   "bugs": 
   {
-    "url": "https://github.com/prajyot-tote/simples3deploy/issues"
+    "url": "https://github.com/prajyot-tote/simple-s3deploy/issues"
   },
   "author": "Prajyot Tote",
   "license": "MIT",

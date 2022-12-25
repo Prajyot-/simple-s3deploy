@@ -1,6 +1,6 @@
 {
   "name": "simple-s3-deploy",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "A simple package to deploy static files to your AWS S3 bucket.",
   "main": "s3deploy.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/prajyot-tote/simple-s3deploy"
   },
-  "homepage": "https://github.com/prajyot-tote/simples-3deploy#readme",
+  "homepage": "https://github.com/prajyot-tote/simple-s3deploy#readme",
   "bugs": 
   {
     "url": "https://github.com/prajyot-tote/simple-s3deploy/issues"

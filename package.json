@@ -1,6 +1,6 @@
 {
   "name": "simple-s3-deploy",
-  "version": "1.0.21",
+  "version": "1.0.23",
   "description": "A simple package to deploy static files to your AWS S3 bucket.",
   "main": "s3deploy.js",
   "keywords": [

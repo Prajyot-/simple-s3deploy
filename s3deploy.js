@@ -9,6 +9,7 @@ let BUCKET_NAME = "";
 let DEPLOY_FOLDER_PATH = "";
 let BUILD_CMD = "";
 let CROSS_ACCOUNT_ROLE = "";
+let ACL = undefined;
 
 let IGNORE_FILES = [];
 let s3;
@@ -150,8 +151,12 @@ async function uploadFile(fileName)
         Key: fileName.replace(DEPLOY_FOLDER_PATH, ""),
         Body: fileContent,
         ContentType: mime.lookup(fileName), 
-        ACL: 'public-read'
     };
+
+    if(ACL)
+    {
+        params.ACL = ACL;
+    }
 
     // Uploading files to the bucket
     return s3.upload(params).promise();

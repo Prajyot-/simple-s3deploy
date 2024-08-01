@@ -1,6 +1,6 @@
 {
   "name": "simple-s3-deploy",
-  "version": "1.0.24",
+  "version": "1.1.0",
   "description": "A simple package to deploy static files to your AWS S3 bucket.",
   "main": "s3deploy.js",
   "keywords": [
@@ -11,14 +11,12 @@
     "cloudfront cache clear",
     "simple"
   ],
-  "repository": 
-  {
+  "repository": {
     "type": "git",
     "url": "https://github.com/prajyot-tote/simple-s3deploy"
   },
   "homepage": "https://github.com/prajyot-tote/simple-s3deploy#readme",
-  "bugs": 
-  {
+  "bugs": {
     "url": "https://github.com/prajyot-tote/simple-s3deploy/issues"
   },
   "author": "Prajyot Tote",
